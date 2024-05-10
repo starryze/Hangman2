@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Movie Hangman</title>
+    <link rel="stylesheet" href="hangman.css">
+    <link rel="shortcut icon" 
+          href="https://mitchum.blog/wp-content/uploads/2019/05/favicon.png" />
+  </head>
+  <body>
+    <main>
+      <h1>Movie Hangman</h1>
+      <div id="gallows">
+        <img style="padding-left: 70px" id="hangmanImage" src="img/hangman0.png">
+      </div>
+      <div id="word"></div>
+      <br>
+      <div id="controls">
+        <input type="text" id="guessBox">
+        <button id="guessWordButton" class="button" onclick="guessWord( game )">Guess Word</button>
+        <button id="newGameButton" class="button" onclick="newGame();">New Game</button>
+        <br>
+        <br>
+        <form action="https://study.com/academy/lesson/reading-skills-strategies-for-following-directions.html#:~:text=When%20reading%20directions%2C%20it%20is,what's%20essential%20in%20the%20directions.">
+          <button id="googletext" class="button">Please wait until the game is finished...</button>
+        </form>
+      </div>
+      <br>
+      <div id="guesses"></div>
+    </main>   
+   <script src="hangman.js"></script>
+  </body>
+</html>
